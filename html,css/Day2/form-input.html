@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h3>input tags</h3>
+
+  <form action="">
+    <!-- input#username[type=text] -->
+    <input type="text" name="username"><br>
+    <input type="radio" id="radio"><br>
+    <input type="checkbox" id="checkbox"><br>
+    <input type="button" value=button><br>
+    <input type="file" id="file"><br>
+    <input type="submit"><br>
+    <input type="reset"><br>
+    <input type="hidden" id="hidden" value="hiddenValue">
+    </div>
+  </form>
+
+  <h3>radio tags</h3>
+  <form action="">
+    <input type="radio" id="radio1" name="radio-name">
+    <input type="radio" id="radio2" name="radio-name">
+    <input type="submit" value="제출">
+  </form>
+
+  <h3>Label</h3>
+  <form action="">
+    <div>
+      <label for="text-toggle1">ID</label>
+      <input type="text" id="text-toggle1">
+    </div>
+    <div>
+      <label for="text-toggle2">UserName</label>
+      <input type="text" id="text-toggle2">
+    </div>
+
+    <h3>select</h3>
+    <div>
+      <select name="number" id="">
+        <!-- option[value=$]*4 -->
+        <option value="1">First</option>
+        <option value="2">Second</option>
+        <option value="3">Third</option>
+        <option value="4">Fourth</option>
+      </select>
+    </div>
+
+    <h3>select - optgroup</h3>
+    <select name="optgroup-select" id="">
+      <!-- (optgroup[label=]>(option[value=$]*3))*2 -->
+      <optgroup label="Fruits">
+        <option value="1">Apple</option>
+        <option value="2">Banana</option>
+        <option value="3">Orange</option>
+      </optgroup>
+      <optgroup label="Colors">
+        <option value="1">Red</option>
+        <option value="2">Blue</option>
+        <option value="3">Green</option>
+      </optgroup>
+    </select>
+    <div>
+      <button type="submit">전송</button>
+    </div>
+
+    <h3>fieldset</h3>
+    <form action="">
+      <legend>login</legend>
+      <label>username : <input type="text"></label>
+      <label>password : <input type="password"></label>
+    </form>
+
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+html {
+  font-size: 16pt;
+}
+body {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0.7rem;
+  line-height: 1rem;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+ul, ol {
+  -webkit-padding-start: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+
+.modified-date {
+  font-size: 14px;
+  text-align: right;
+}
+
+.link-container {
+  vertical-align: middle;
+}
+
+.link-container img.arrow {
+  height: 22px;
+}
+
+table.next-match {
+  text-align: center;
+  vertical-align: middle;
+  border: 0.0625rem solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.next-match tr, td {
+  border: 0.0625rem solid #ccc;
+}
+
+table.next-match img {
+  width: 2rem;
+}
+
+table.next-match tr:nth-child(1) {
+  color: #ffffff;
+  background-color: #256DD0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+table.next-match tr td:nth-child(even) { /*odd 홀수, even 짝수*/
+  background-color: #ccc;
+  width: 30%;
+  white-space: pre-line;
+}
+
+
+table.team-history {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  white-space: pre-line;
+  border-collapse: collapse;
+}
+
+table.team-history img {
+  width: 40%;
+}
+
+table.team-history tr td:nth-child(2) {
+  font-size: 13px;
+  font-weight: normal;
+  width: 80%;
+}
+
+table.team-history .td-main-head {
+  background: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FEB200;
+}
+
+table.team-history .td-sub-head {
+  background: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000000;
+}
+table.team-history .emoji-star {
+  color: #FEB200;
+}
+
+.text-list {
+  font-size: 14px;
+  border: 1px solid #000000;
+  width: 50%;
+  padding-left: 15px;
+}

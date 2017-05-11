@@ -1,0 +1,48 @@
+div {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid block;
+  color: white;
+  background-color: rgba(50 , 50, 50, 0.8);
+}
+
+.relative1 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.relative2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.fixed {
+  position: fixed;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  right: 10px;
+  bottom: 10px;
+}
+
+.absolute {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*absolute의 좌표 배치의 경우
+  position의 relative옵션이 있는 가장 가까운 부모 기준으로 배치 된다
+  부모 element중 position옵션이 있는 것이 없다면 문서를 기준으로 한다.*/
+
+}
+
+a {
+  color: white;
+}

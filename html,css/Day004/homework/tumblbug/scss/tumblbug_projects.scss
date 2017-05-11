@@ -1,0 +1,36 @@
+@import "variables";
+
+$top-nav-height: 60px;
+
+nav.top-nav {
+  background-color: white;
+  height: $top-nav-height;
+  padding: 0 32px;
+
+  ul {
+    li {
+      height: $top-nav-height;
+      float: left;
+      line-height: $top-nav-height;
+
+      a {
+        padding: 0 10px;
+        height: $top-nav-height;
+        display: inline-block;
+        box-sizing: border-box;
+        transition: 0.5s;
+
+        img {
+          vertical-align: middle;
+        }
+      }
+
+      &.menu-item {
+        a:hover {
+          border-bottom: 1px solid $color-theme;
+          color: $color-theme;
+        }
+      }
+    }
+  }
+}
